@@ -3,6 +3,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.navigation-bar{
+    
+    /* margin-bottom: 30px; */
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -11,7 +15,7 @@ nav {
     border: 1px solid #941c48;
     background-color: #941c48;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     max-width: 100%;
 }
 
@@ -59,6 +63,7 @@ section 1
     width: 100%;
     height: 650px;
     
+    
 }
 
 /* header and navigation style */
@@ -67,7 +72,7 @@ section 1
 /* banner style */
 .banner {
     text-align: center;
-    padding-top: 92px; 
+    padding-top: 72px; 
 }
 .welcome{
     font-weight: 800;
