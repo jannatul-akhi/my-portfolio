@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* section 1 */
+
+
+.text-primary {
+    color: wheat;
+}
+#section1 {
+    background: whitesmoke;
+    background-image: url('../images/bg-image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    width: 100%;
+    height: 650px;
+}
+
+/* header and navigation style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #941c48;
+    background-color: #941c48;
+    width: 100%;
+    position: fixed;
+    max-width: 100%;
+}
+
+
+.nav-title {
+    font-weight: 800;
+    font-size: 38px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: solid;
+    color: white;
+    font-size: 18px;
+}
+.navbar a:hover{
+    font-weight: 700;
+}
+
+
+nav li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+
+/* banner style */
+.banner {
+    /* margin: 0 500px; */
+
+    text-align: center;
+    padding-top: 72px; 
+}
+.welcome{
+    font-weight: 800;
+    font-size: 85px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+.banner-title {
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.banner-sub-title {
+    font-weight: 400;
+    font-size: 35px;
+    /* margin-bottom: 20px; */
+}
+
+.banner-description {
+    color: wheat;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+/* section 2 */
+
+
+.text-prime{
+    color: palevioletred;
+}
+.primary-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-container{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.paragraph{
+    text-align: justify;
+}
+.about-context{
+    padding-left: 100px;
+}
+.about-info{
+    padding-right: 100px;
+}
+.about-heading{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+hr{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.btn-primary {
+    height: 64px;
+    border-radius: 50px;
+    background: palevioletred;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    margin-top: 20px;
+
+}
+.btn-primary a{
+    text-decoration: solid;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #941c48;
+}
+
+
+
+/* section 3 
+------------------Skill
+*/
+#section3{
+    background-color: rgba(255, 182, 193, 0.627);
+    border-radius: 10px;
+    margin: 0 100px;
+    /* height: 450px; */
+    
+}
+.secondary-title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.skill-title{
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.progress-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-container{
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.progress_inner { 
+    width: 100%; 
+    margin-bottom: 22px; 
+    background: #e7e5f1; 
+    min-width: 100%; 
+    /* position: relative;  */
+    height: 8px; 
+    border-radius: 50px 
+} 
+ 
+.progress_inner .bar_in { 
+    height: 8px; 
+    width: 0; 
+    overflow: hidden; 
+    border-top-left-radius: 50px; 
+    border-bottom-left-radius: 50px; 
+    /* position: relative;  */
+    top: 0 
+} 
+ 
+.progress_inner .bar { 
+    width: 0; 
+    height: 100%; 
+    width: 100% 
+}
+
+
+
+/* -------------------
+section 4 
+--------------------Education
+*/
+
+#section4{
+    background-image: linear-gradient(to top, pink, white);
+    /* background-image: url('/images/resume-bg2.webp');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+}
+
+.education{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+    padding-bottom: 10px;
+
+}
+
+.education-title{
+    font-size: 30px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.education-section{
+    border: 1px solid #941c48;
+    border-radius: 20px;
+    padding: 20px;
+   
+    
+}
+
+.duration{
+    border-radius: 10px;
+    /* padding: 30px 1078px 30px 32px; */
+    color: #FFFFFF;
+    border: 1px solid palevioletred;
+    background-color: #941c48;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+    padding-left: 12px;
+    margin-right: 425px;
+    margin-bottom: 20px;
+    
+}
+
+.result{
+    margin-bottom: 10px;
+}
+.subject{
+    margin-bottom: 7px;
+    
+}
+.institute{
+    margin-bottom: 12px;
+    color: #941c48;
+}
+
+
+/* 
+-----------------
+Section 5
+-------------------------Contact
+ */
+#section5{
+    background: palevioletred;
+    background-image: linear-gradient(to top, palevioletred, rgba(255, 192, 203, 0.915));
+}
+ .contact{
+    display: flex;
+    gap: 100px;
+    
+    padding: 130px 200px;
+}
+.contact .section-description{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
