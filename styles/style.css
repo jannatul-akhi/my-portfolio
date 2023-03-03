@@ -224,9 +224,6 @@ section 4
 
 #section4{
     background-image: linear-gradient(to top, pink, white);
-    /* background-image: url('/images/resume-bg2.webp');
-    background-repeat: no-repeat;
-    background-size: cover; */
     width: 100%;
 }
 
@@ -314,9 +311,7 @@ Section 5
     border-radius: 10px;
 }
 
-.contact a{
-    text-decoration: none;
-}
+
 .btn-secondary {
     border-radius: 30px;
     background: palevioletred;
