@@ -253,11 +253,15 @@ section 4
 .education-section{
     border: 1px solid #941c48;
     border-radius: 20px;
-    padding: 20px;
-   
-    
+    padding: 20px; 
+    transition: width 1s, height 1s, transform 1s;  
 }
 
+.education-section:hover{
+    transform: translate(50px, 50px) scale(1.1);
+    background-color: palevioletred;
+
+}
 .duration{
     border-radius: 10px;
     /* padding: 30px 1078px 30px 32px; */
