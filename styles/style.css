@@ -288,21 +288,40 @@ Section 5
  .contact{
     display: flex;
     gap: 100px;
-    
-    padding: 130px 200px;
+    padding: 10px 150px;
 }
-.contact .section-description{
-    text-align: left;
+
+.section-title{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.section-description{
+    margin-bottom: 20px;
 }
 .contact input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
-    padding: 18px 30px;
+    padding: 10px 30px 10px 10px;
+    border-radius: 10px;
 }
-input{
-    height: 64px;
-}
+
 .contact a{
     text-decoration: none;
 }
+.btn-secondary {
+    border-radius: 30px;
+    background: palevioletred;
+    border: 2px solid #941c48;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
+
+}
+
+.btn-secondary:hover{
+    background-color: #941c48;
+}
+
